@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <h1 class="aboveHeader">QuickQR!</h1>
+        <p class="aboveHeader" id="phrase">Instant, Easy, Everywhere</p>
+        <div id="qrcode"></div>
+        <div id="header">
+            <!-- <p id="header"></p> -->
+        </div>
+        <div class="options">
+        <input type="text" id="customUrl" placeholder="Enter custom URL/Text">
+        <a href="#" class="btn btn-primary" role="button"  id="generateCustom" class="generate">Generate for Custom Text</a>
+        <a href="#" class="btn btn-primary" role="button" id="generateTAB" class="generate">Generate for Current TAB</a>
+        </div>
+    </div>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="/qrcodejs/qrcode.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

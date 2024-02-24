@@ -1,0 +1,73 @@
+body {
+    width: 320px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#content {
+    border-radius: 2%;
+    background-color: #fefae0;
+}
+
+.aboveHeader {
+    text-align: center;
+    font-weight: 500;
+}
+#phrase {
+    font-weight: 700;
+    color: black;
+}
+#header {
+    max-width: 280px; /* Adjust the max-width as needed */
+    word-wrap: break-word;
+    text-align: center;
+    margin: 15px 15px;
+    font-weight: bold;
+}
+
+
+.generate {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+}
+
+#customUrl{
+    background-color: #faf9f7;
+    border-radius: 2%;
+    border-color: black;
+    color: black;
+}
+
+#generateTAB.btn-primary {
+    background-color: #bc6c25;
+    border-color: #bc6c25;
+}
+
+#generateCustom.btn-primary {
+    background-color: #bc6c25;
+    border-color: #bc6c25;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#qrcode {
+    padding: 10px;
+}
+
+#qrcode img {
+    display: inline-block; /* Ensures the image is treated as inline for centering */
+    margin: auto; /* Additional centering for the image */
+    display: inline-block; /* Ensure the container behaves like a block element */
+    padding: 10px;
+    border: 2px solid black; /* Add a border around the image */
+    border-radius: 10%;
+}
+
